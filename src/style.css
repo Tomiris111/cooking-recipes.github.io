@@ -1,59 +1,12 @@
-* {
-    box-sizing: border-box;
-}
 
 body {
-    background-color: #594F4F;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the side navigation */
-.sidenav {
-    height: 100%;
-    width: 250px;
-    padding-top: 50px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #594F4F;
-    overflow-x: hidden;
-}
-
-
-/* Side navigation links */
-.sidenav a {
-    color: antiquewhite;
-    padding: 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color on hover */
-.sidenav a:hover {
-    background-color: #efebe9;
-    color: saddlebrown;
-}
-
-.info {
-    padding-top: 400px;
-    padding-left: 16px;
-    color: antiquewhite;
 }
 
 .head {
     float: inherit;
     clear: right;
-}
-
-/* Style the content */
-.content {
-    margin-left: 250px;
-    padding-left: 70px;
-    padding-right: 100px;
-    background-color: #E5FCC2;
-    color: #212121;
 }
 /* Make the image fully responsive */
 .carousel-inner img {
